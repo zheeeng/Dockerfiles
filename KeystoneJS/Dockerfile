@@ -16,6 +16,4 @@ RUN cp $NODE_PATH/bson/browser_build/bson.js $NODE_PATH/bson/build/Release/bson.
 
 WORKDIR /usr/src/app
 
-EXPOSE 3000
-
 CMD [ "node", "keystone.js" ]
