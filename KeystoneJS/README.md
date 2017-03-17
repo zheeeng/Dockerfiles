@@ -6,7 +6,7 @@
 2. Edit your `.env` file
 3. Run the keystonejs container:
 
-         docker run -p 80:3000 -it -d -name keystonejs -v "$PWD":/usr/src/app zheeeng/keystonejs
+         docker run -p 80:3000 -it -d --name keystonejs -v "$PWD":/usr/src/app zheeeng/keystonejs
 
     or optionally link MongoDB container:
 
