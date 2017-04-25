@@ -6,4 +6,4 @@ RUN npm install json-server -g
 
 WORKDIR /data
 
-EXPOSE 3000
+ENTRYPOINT ["/bin/sh"]
